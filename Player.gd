@@ -9,8 +9,6 @@ var screen_size
 func _ready():
 	hide()
 	screen_size = get_viewport_rect().size
-	# TODO(endorphins) remove once we are done testing and it is hooked up to game start
-	start(Vector2(screen_size.x / 2, screen_size.y / 2))
 
 func _process(delta):
 	velocity = Vector2()
